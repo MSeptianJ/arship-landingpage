@@ -16,7 +16,7 @@ export default {
       '2xl': '1536px',
     },
     fontFamily: {
-      sans: ['Inter Var', ...defaultTheme.fontFamily.sans],
+      sans: ['Inter', ...defaultTheme.fontFamily.sans],
     },
     extend: {
       colors: {
@@ -24,6 +24,10 @@ export default {
         primary: '#326273',
         accent: '#f2a831',
       },
+      fontFamily: {
+        title: ['Inter', ...defaultTheme.fontFamily.sans],
+        content: ['Roboto', ...defaultTheme.fontFamily.sans],
+      }
     },
   },
   plugins: [],
