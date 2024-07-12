@@ -1,6 +1,7 @@
 {
-  "name": "app name",
-  "short_name": "short name",
+  "name": "ARShip",
+  "short_name": "ARShip",
+  "description": "Application about the history of Ships",
   "theme_color": "#fff",
   "background_color": "#fff",
   "display": "standalone",
