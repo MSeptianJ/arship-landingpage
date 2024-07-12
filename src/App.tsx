@@ -1,17 +1,21 @@
-import LOGO from './assets/IconNoBorder.svg';
+import Contact from './components/Contact';
+import Developer from './components/Developer';
+import Feature from './components/Feature';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Testimonial from './components/Testimonial';
 
 function App() {
   return (
     <div className="min-h-screen w-full">
-      <div className="my-2 flex w-full">
-        <div className="">
-          <img 
-            src={LOGO} 
-            alt="ARShip Logo" 
-            className='size-8'
-          />
-        </div>
-      </div>
+      <Header />
+      <Hero />
+      <Feature />
+      <Developer />
+      <Testimonial />
+      <Contact />
+      <Footer />
     </div>
   );
 }
