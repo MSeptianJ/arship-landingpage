@@ -26,11 +26,11 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="w-screen">
+        <div className="w-full">
           <div className="relative h-60 w-full">
-            <img className="absolute bottom-0 left-0 max-h-60 w-full object-cover" src={WAVEC} alt="" />
-            <img className="absolute bottom-0 left-0 max-h-60 w-full object-cover" src={WAVEB} alt="" />
-            <img className="absolute bottom-0 left-0 max-h-60 w-full object-cover" src={WAVEA} alt="" />
+            <img className="absolute bottom-0 left-0 -z-10 max-h-60 w-full object-cover" src={WAVEC} alt="" />
+            <img className="absolute bottom-0 left-0 -z-10 max-h-60 w-full object-cover" src={WAVEB} alt="" />
+            <img className="absolute bottom-0 left-0 -z-10 max-h-60 w-full object-cover" src={WAVEA} alt="" />
           </div>
         </div>
       </div>
