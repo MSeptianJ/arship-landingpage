@@ -15,9 +15,9 @@ const Header = () => {
           <a className="hover:text-gray-900" href='#Testimonial'>Testimonial</a>
           <a className="hover:text-gray-900" href='#Contact'>Contacs</a>
         </nav>
-        <button className="mt-4 items-center rounded border-0 bg-accent px-3 py-1 text-base hover:bg-accent focus:outline-none md:mt-0 md:inline-flex">
+        <a href="https://drive.google.com/file/d/18PfpS5spqqtcFhDUUT1lEiwD4cXMnVXO/view?usp=drive_link" target="_blank" className="mt-4 items-center rounded border-0 bg-accent px-3 py-1 text-base hover:bg-accent focus:outline-none md:mt-0 md:inline-flex">
           Download
-        </button>
+        </a>
       </div>
     </header>
   )

@@ -16,13 +16,13 @@ const Hero = () => {
           <p className="mb-8 leading-relaxed">Explore maritime history with ARShip, the app that brings iconic vessels and naval events to life through augmented reality. Perfect for history enthusiasts and educators, ARShip offers an engaging and interactive learning experience.</p>
           
           <div className="flex">
-            <button className="inline-flex items-center rounded-lg bg-gray-100 px-5 py-3 hover:bg-gray-200 focus:outline-none">
+            <a href="https://drive.google.com/file/d/18PfpS5spqqtcFhDUUT1lEiwD4cXMnVXO/view?usp=drive_link" target="_blank" className="inline-flex items-center rounded-lg bg-gray-100 px-5 py-3 hover:bg-gray-200 focus:outline-none">
               <PlayStoreIcon />
               <span className="ml-4 flex flex-col items-start leading-none">
                 <span className="mb-1 text-xs text-gray-600">GET IT ON</span>
                 <span className="font-medium">Google Play</span>
               </span>
-            </button>
+            </a>
           </div>
         </div>
 
