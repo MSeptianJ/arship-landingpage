@@ -2,7 +2,7 @@ import { PlayStoreIcon } from "../libs/Icons"
 
 const Hero = () => {
   return (
-    <section id="Top" className=" text-gray-600">
+    <section id="Home" className="font-content text-gray-600">
       <div className="container mx-auto flex flex-col items-center justify-center px-5 py-24">
         <img className="mb-10 w-5/6 rounded object-cover object-center md:w-3/6 lg:w-2/6" alt="hero" src="https://dummyimage.com/720x600"/>
         <div className="mb-16 flex w-full flex-col items-center text-center md:w-2/3">

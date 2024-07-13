@@ -20,9 +20,8 @@ export default {
     },
     extend: {
       colors: {
-        secondary: '#5C9EAD',
-        primary: '#326273',
-        accent: '#f2a831',
+        accent: '#FFC700',
+        accentdark: '#F19601',
       },
       fontFamily: {
         title: ['Inter', ...defaultTheme.fontFamily.sans],
