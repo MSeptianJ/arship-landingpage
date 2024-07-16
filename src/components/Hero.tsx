@@ -15,7 +15,7 @@ const Hero = () => {
           <h1 className=" mb-4 text-3xl font-medium text-gray-900 sm:text-4xl">Mobile Educational History</h1>
           <p className="mb-8 leading-relaxed">Explore maritime history with ARShip, the app that brings iconic vessels and naval events to life through augmented reality. Perfect for history enthusiasts and educators, ARShip offers an engaging and interactive learning experience.</p>
           
-          <div className="flex">
+          <div className="flex shadow-lg">
             <a href="https://drive.google.com/file/d/18PfpS5spqqtcFhDUUT1lEiwD4cXMnVXO/view?usp=drive_link" target="_blank" className="inline-flex items-center rounded-lg bg-gray-100 px-5 py-3 transition-colors hover:bg-yellow-300 focus:outline-none">
               <PlayStoreIcon />
               <span className="ml-4 flex flex-col items-start leading-none">
@@ -26,12 +26,10 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="w-full">
-          <div className="relative h-60 w-full">
-            <img className="absolute bottom-0 left-0 -z-10 max-h-60 w-full object-cover" src={WAVEC} alt="" />
-            <img className="absolute bottom-0 left-0 -z-10 max-h-60 w-full object-cover" src={WAVEB} alt="" />
-            <img className="absolute bottom-0 left-0 -z-10 max-h-60 w-full object-cover" src={WAVEA} alt="" />
-          </div>
+        <div className="relative w-screen md:h-32">
+          <img className="absolute bottom-0 left-0 -z-10 w-full animate-waveLeft object-cover md:size-full" src={WAVEC} alt="" />
+          <img className="absolute bottom-0 left-0 -z-10 w-full animate-waveRight object-cover md:size-full" src={WAVEB} alt="" />
+          <img className="absolute bottom-0 left-0 -z-10 w-full animate-waveLeft object-cover md:size-full" src={WAVEA} alt="" />
         </div>
       </div>
     </section>

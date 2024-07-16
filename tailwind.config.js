@@ -26,6 +26,32 @@ export default {
       fontFamily: {
         title: ['Inter', ...defaultTheme.fontFamily.sans],
         content: ['Roboto', ...defaultTheme.fontFamily.sans],
+      },
+      keyframes: {
+        waveLeft: {
+          '0%, 100%': {
+            transform: 'translateX(-50%)',
+            'animation-timing-function': 'cubic-bezier(0.8, 0, 1, 1)',
+          },
+          '50%': {
+            transform: 'translateX(50%)',
+            'animation-timing-function': 'cubic-bezier(0.8, 0, 1, 1)',
+          },
+        },
+        waveRight: {
+          '0%, 100%': {
+            transform: 'translateX(50%)',
+            'animation-timing-function': 'cubic-bezier(0.8, 0, 1, 1)',
+          },
+          '50%': {
+            transform: 'translateX(-50%)',
+            'animation-timing-function': 'cubic-bezier(0.8, 0, 1, 1)',
+          },
+        }
+      },
+      animation: {
+        waveLeft: 'waveLeft 10s linear infinite',
+        waveRight: 'waveRight 10s linear infinite',
       }
     },
   },
