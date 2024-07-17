@@ -25,14 +25,14 @@ function App() {
         <img className="size-full" src={WAVEB} alt="" />
       </div>
 
-      <Developer />
+      <Testimonial />
 
       <div className="w-full bg-clr2">
         <img className="size-full" src={WAVEA} alt="" />
       </div>
 
-      <Testimonial />
       <Contact />
+      <Developer />
       <Footer />
     </div>
   );
