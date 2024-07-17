@@ -1,6 +1,6 @@
 const Testimonial = () => {
   return (
-    <section id="Testimonial" className="font-content text-gray-600">
+    <section id="Testimonial" className="bg-clr3 font-content text-gray-600">
       <div className="container mx-auto px-5 py-24">
         <h1 className="mb-12 text-center font-title text-3xl font-medium text-gray-900">Testimonials</h1>
         <div className="-m-4 flex flex-wrap">

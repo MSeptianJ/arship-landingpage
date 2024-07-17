@@ -1,15 +1,12 @@
 import { PlayStoreIcon } from "../libs/Icons"
 import HERO from "../assets/Images/HeroImg.svg";
-import WAVEA from "../assets/Images/Vector-1.svg";
-import WAVEB from "../assets/Images/Vector-2.svg";
-import WAVEC from "../assets/Images/Vector-3.svg";
+
 
 const Hero = () => {
   return (
     <section id="Home" className="font-content">
-      <div className="container mx-auto flex flex-col items-center justify-center px-5 py-24">
+      <div className="container mx-auto flex flex-col items-center justify-center px-5 pt-24">
         <img className="mb-10 w-5/6 rounded object-cover object-center md:w-3/6 lg:w-2/6" alt="hero" src={HERO}/>
-
 
         <div className="mb-16 flex w-full flex-col items-center text-center md:w-2/3">
           <h1 className=" mb-4 text-3xl font-medium text-gray-900 sm:text-4xl">Mobile Educational History</h1>
@@ -26,11 +23,6 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="relative w-screen md:h-32">
-          <img className="absolute bottom-0 left-0 -z-10 w-full animate-waveLeft object-cover md:size-full" src={WAVEC} alt="" />
-          <img className="absolute bottom-0 left-0 -z-10 w-full animate-waveRight object-cover md:size-full" src={WAVEB} alt="" />
-          <img className="absolute bottom-0 left-0 -z-10 w-full animate-waveLeft object-cover md:size-full" src={WAVEA} alt="" />
-        </div>
       </div>
     </section>
   )

@@ -2,7 +2,7 @@ import DEVICON from "../assets/Images/IconJael.svg"
 
 const Developer = () => {
   return (
-    <section id="Developer" className="font-content text-gray-600">
+    <section id="Developer" className="bg-clr2 font-content text-gray-600">
       <div className="container mx-auto flex flex-col px-5 py-24">
         <div className="mx-auto lg:w-4/6">
           {/* <div className="h-64 overflow-hidden rounded-lg">

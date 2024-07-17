@@ -2,7 +2,7 @@ import { ARIcon, HistoryIcon, InteractiveIcon } from "../libs/Icons"
 
 const Feature = () => {
   return (
-    <section id="Feature" className="font-content text-gray-600">
+    <section id="Feature" className="bg-clr1 font-content text-gray-600">
       <div className="container mx-auto px-5 py-24">
 
         <div className="mx-auto mb-10 flex flex-col items-center border-b border-gray-200 pb-10 sm:flex-row lg:w-3/5">

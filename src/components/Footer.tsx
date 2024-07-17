@@ -3,7 +3,7 @@ import LOGO from '../assets/Images/IconNoBorder.svg'
 const Footer = () => {
   return (
     <footer className="font-content text-gray-600">
-      <div className="container mx-auto flex flex-col items-center px-5 py-8 sm:flex-row">
+      <div className="container mx-auto flex flex-col items-center p-5 sm:flex-row">
         <a className="flex items-center justify-center font-title font-bold text-gray-900 md:justify-start">
           <img src={LOGO} alt="ARSHip Logo" />
           <span className="ml-3 text-xl">ARShip</span>

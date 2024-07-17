@@ -22,6 +22,9 @@ export default {
       colors: {
         accent: '#FFC700',
         accentdark: '#F19601',
+        clr1: '#FFF48F',
+        clr2: '#FFE790',
+        clr3: '#FCD280'
       },
       fontFamily: {
         title: ['Inter', ...defaultTheme.fontFamily.sans],
